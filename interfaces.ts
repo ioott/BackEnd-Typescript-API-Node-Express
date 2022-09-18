@@ -5,6 +5,11 @@ export interface Product {
   orderId?: number;
 }
 
+export interface JWTOptions {
+  algorithm: string;
+  expiresIn: string;
+}
+
 export interface Order {
   id: number;
   userId: number;
