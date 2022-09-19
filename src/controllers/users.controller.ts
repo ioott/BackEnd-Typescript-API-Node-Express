@@ -8,11 +8,6 @@ const UserController = {
     const token = await userService.create(user);
     res.status(StatusCodes.CREATED).json(token);
   },
-
-  // async getAll(req: Request, res: Response) {
-  //   const allProducts = await productService.getAll();
-  //   res.status(StatusCodes.OK).json(allProducts);
-  // },
 };
 
 export default UserController;

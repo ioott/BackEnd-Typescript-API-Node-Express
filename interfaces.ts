@@ -13,6 +13,7 @@ export interface JWTOptions {
 export interface Order {
   id: number;
   userId: number;
+  productIds: Array<number>;
 }
 
 export interface User {
